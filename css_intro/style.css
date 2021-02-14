@@ -14,13 +14,14 @@ p {
 p{
     font-size: 20;
     background: gold;
-    width: 500px;
+    width: 1000px;
+    margin: 50px; 
 }
 
 div{
     font-size: 40px;
     background: rgb(255, 200, 255);
-    width: 100px;
+    width: 1350px;
     height: 100px;
     padding: 20px;
     border: 10px solid blue; 
