@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url (https://)
+    background-repeat: no-repeat;
+    position: fixed; 
+    overflow-y: scroll;
+
+}
+
+.intro_text {
+    margin: 0 auto;
+    margin-bottom: 10em;
+    width: 60ch;
+}

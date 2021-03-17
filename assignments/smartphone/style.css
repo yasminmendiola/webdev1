@@ -1,0 +1,313 @@
+body {
+  font-family: Arial;
+}
+
+.outer-parent {
+  background: pink;
+  width: 350px;
+  height: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0 0 20px 1px black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-parent {
+  display: flex;
+  max-width: max-content;
+}
+
+.box1 {
+  background: skyblue;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box1:hover {
+  color: red;
+  background: lightgoldenrodyellow;
+}
+
+.box2 {
+  background: red;
+  color: yellow;
+  font-size: 11px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px; 
+}
+
+.box2:hover {
+  color: cyan;
+  background: skyblue;
+}
+
+.box3 {
+  background: purple;
+  color: lightgreen;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px; 
+}
+
+.box3:hover {
+  color: pink;
+  background: red;
+}
+
+.box4 {
+  background: orange;
+  color: darkmagenta;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box4:hover {
+  color: deepskyblue;
+  background: purple;
+}
+
+.box5 {
+  background: yellow;
+  background-image: url(gifs/smile3a.gif);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 13px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box5:hover {
+  background: orange;
+}
+
+.box6 {
+  background: lightgreen;
+  background-image: url(gifs/bggitterystars.gif);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 12px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box6:hover {
+  background: yellow;
+}
+
+.box7 {
+  background: darkturquoise;
+  background-image: url(gifs/earth_vert_clouds_sm_clr.gif);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 13px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box7:hover {
+  background: lightgreen;
+}
+
+.box8 {
+  background: indianred;
+  background-image: url(gifs/Birds2_ani.gif);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 12px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box8:hover {
+  background: darkturquoise;
+}
+
+.box9 {
+  background: blue;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 13px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box9:hover {
+  background: indianred;
+}
+
+.box10 {
+  background: green;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 13px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box10:hover {
+  background: blue;
+}
+
+.box11 {
+  background: fuchsia;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 10px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box11:hover {
+  background: green;
+}
+
+.box12 {
+  background: coral;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 13px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box12:hover {
+  background: fuchsia;
+}
+
+.box13 {
+  background-image: linear-gradient(red, blue);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 13px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box13:hover {
+  background: coral;
+}
+
+.box14 {
+  background-image: linear-gradient(purple, pink);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 13px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box14:hover {
+  background: linear-gradient(red, blue);
+}
+
+.box15 {
+  background-image: linear-gradient(#4158D0,#C850C0, #FFCC70 );
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 13px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box15:hover {
+  background: linear-gradient(purple, pink);
+}
+
+.box16 {
+  background-image: linear-gradient(#00DBDE,#FC00FF);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 13px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box16:hover {
+  background: linear-gradient(#4158D0,#C850C0, #FFCC70 );
+}
+
+.box17 {
+  background-image: url(https://picsum.photos/id/237/200/300); 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box17:hover {
+  background: linear-gradient(red, yellow);
+}
+
+.box18 {
+  background-image: url(https://picsum.photos/seed/picsum/200/300);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box18:hover {
+  background: linear-gradient(lightgreen, lightgoldenrodyellow);
+}
+
+.box19 {
+  background-image: url(https://picsum.photos/200/300/?blur=2);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box19:hover {
+  background: linear-gradient(pink, lightgoldenrodyellow);
+}
+
+.box20 {
+  background-image: url(https://picsum.photos/200/307/?blur=2);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  width: 50px;
+  height: 50px;
+  margin: .25em;
+  border-radius: 8px;
+}
+
+.box20:hover {
+  background: linear-gradient(lime, indigo);
+}
