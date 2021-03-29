@@ -1,0 +1,37 @@
+body {
+    background: aquamarine;
+}
+
+h1 {
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.loader {
+    border: 16px solid white; 
+    border-top: 16px solid skyblue; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    animation-name: spin; 
+    animation-duration: 2s; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes spin {
+    0%  {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+  }
