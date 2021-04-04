@@ -1,6 +1,74 @@
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 25px;
-    color:tomato;
+    color: tomato;
+    text-align: center;
     background:url(assets/starstwinkle.gif);
+}
+
+body:hover {
+    color:lightgreen;
+}
+
+.planet1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px; 
+}
+
+.neptune {
+    position: fixed;
+    top: 80%;
+    right: 90%;
+    
+}
+
+.mercury {
+    position: fixed;
+    top: 70%;
+    right: 3%;
+}
+
+.earth {
+    position: fixed;
+    top: 30%;
+    left: 85%;
+    
+}
+
+.moon {
+    position: fixed;
+    top: 10%;
+    right: 90%;
+}
+
+.merc {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+}
+
+.planet2 {
+    position: fixed;
+    top: 80%;
+    left: 70%;
+    margin-left: -100px; 
+}
+
+.planet4 {
+    position: fixed;
+    left: 88%;
+}
+
+.planet003 {
+    position: fixed;
+    right: 30%;
+    bottom: 50%;
+}
+
+.planet0101 {
+    position: fixed;
+    top: 77%;
+    right: 60%;
 }
