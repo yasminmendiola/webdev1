@@ -14,39 +14,42 @@ body:hover {
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-left: -100px; 
+    z-index: -1;
 }
 
 .neptune {
     position: fixed;
     top: 80%;
     right: 90%;
-    
+    z-index: -1;
 }
 
 .mercury {
     position: fixed;
     top: 70%;
     right: 3%;
+    z-index: -1;
 }
 
 .earth {
     position: fixed;
     top: 30%;
     left: 85%;
-    
+    z-index: -1;
 }
 
 .moon {
     position: fixed;
     top: 10%;
     right: 90%;
+    z-index: -1;
 }
 
 .merc {
     position: fixed;
     top: 50%;
     left: 10%;
+    z-index: -1;
 }
 
 .planet2 {
@@ -54,21 +57,25 @@ body:hover {
     top: 80%;
     left: 70%;
     margin-left: -100px; 
+    z-index: -1;
 }
 
 .planet4 {
     position: fixed;
     left: 88%;
+    z-index: -1;
 }
 
 .planet003 {
     position: fixed;
     right: 30%;
     bottom: 50%;
+    z-index: -1;
 }
 
 .planet0101 {
     position: fixed;
     top: 77%;
     right: 60%;
+    z-index: -1;
 }

@@ -1,0 +1,45 @@
+body {
+    background-image: url(images/original.jpg);
+    font-family: 'Audiowide', cursive;
+}
+
+a {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 40px;
+    color: orange;
+    text-align: center;
+}
+
+h2 {
+    color: pink;
+}
+
+h3 {
+    font-size: 25px;
+    color: greenyellow;
+}
+
+h4 {
+    font-size: 25px;
+    color: lightsalmon;
+}
+
+h5 {
+    font-size: 25px;
+    color: red;
+}
+
+.pikachu {
+    width: 15%;
+}
+
+.kitten {
+    position: fixed;
+    top: 40%;
+    left: 90%;
+    z-index: -1;
+    object-fit: cover;
+}
