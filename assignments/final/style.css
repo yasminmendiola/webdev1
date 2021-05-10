@@ -2,4 +2,156 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: black;
+}
+
+li, a, button {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+  }
+  
+.nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+.nav__links li a {
+    padding: 10px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+.nav__links li a:hover {
+    background-color: rgba(0,136,169,0.8);
+  }
+  
+body {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.box {
+  width: 90px;
+  height: 90px;
+  background: white;
+  font-size: 30px;
+  
+  position: absolute;
+  left: 0;
+  top: 0;
+  
+  animation-name: move-and-pause;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move-and-pause {
+  
+  0% {
+    left: 0;
+    top: 0;
+    width: 90px;
+    height: 90px;
+  }
+  
+  50% {
+    left: 40%;
+    top: 40%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  80% {
+    left: 40%;
+    top: 40%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  100% {
+    left: 80%;
+    top: 60%;
+    width: 100px;
+    height: 100px;
+  }
+}
+  
+.hero {
+    background-color: #444;
+    background-image: url(images/party.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+    padding: 1em;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: gold;
+    display: inline-block;
+    margin: 0.25em 0 0.5em;
+  }
+  
+.cta {
+    background-image: url(images/PUMA-Suede-Bboys.jpg);
+    background-size: cover;
+    padding: 30vh 0;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+.cta-text {
+    flex-basis: 100%;
+    padding: 0 2em;
+   }
+
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    color: gold;
+  }
+
+.graffiti {
+    background-image: url(images/Dondi-White-Photo-Martha-Cooper.jpg);
+    background-size: cover;
+    padding: 25vh 0;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.graffiti-text {
+  flex-basis: 90%;
+  padding: 0 4em;
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.6rem;
+  color: gold;
 }
